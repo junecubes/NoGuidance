@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#2c3e50"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -15,6 +16,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
+        android:background="#2c3e50"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,7 +30,13 @@
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:background="#2c3e50"
+                android:lineSpacingExtra="9px"
+                android:text="@string/lyrics"
+                android:textAlignment="center"
+                android:textColor="#fdfefe"
+                android:textSize="43px"/>
         </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>
